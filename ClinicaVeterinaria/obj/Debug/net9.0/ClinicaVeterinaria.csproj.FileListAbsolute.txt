@@ -12,3 +12,4 @@
 /home/isaac/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/obj/Debug/net9.0/ClinicaVeterinaria.pdb
 /home/isaac/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/obj/Debug/net9.0/ClinicaVeterinaria.genruntimeconfig.cache
 /home/isaac/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/obj/Debug/net9.0/ref/ClinicaVeterinaria.dll
+/home/isaac/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/obj/Debug/net9.0/ClinicaVeterinaria.sourcelink.json

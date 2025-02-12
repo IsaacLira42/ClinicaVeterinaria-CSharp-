@@ -61,11 +61,18 @@ namespace ProjetoCS.Persistence
 
         protected void Abrir()
         {
+            string? diretorio = Path.GetDirectoryName(arquivo);
+
+            if (!string.IsNullOrEmpty(diretorio)) // Só cria se o diretório existir
+            {
+                Directory.CreateDirectory(diretorio);
+            }
+
             if (!File.Exists(arquivo))
             {
-                Directory.CreateDirectory(Path.GetDirectoryName(arquivo));
                 File.WriteAllText(arquivo, "[]");
             }
+
             try
             {
                 string json = File.ReadAllText(arquivo);
