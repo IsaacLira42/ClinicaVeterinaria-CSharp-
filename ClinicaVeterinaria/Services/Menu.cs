@@ -6,9 +6,10 @@ namespace ProjetoCS.Services
 {
     public class Menu
     {
-        private GenericPersistence<Cliente> clientes = new GenericPersistence<Cliente>("clientes.json");
-        private GenericPersistence<Funcionario> funcionarios = new GenericPersistence<Funcionario>("funcionarios.json");
-        private GenericPersistence<Admin> admins = new GenericPersistence<Admin>("admins.json");
+        private GenericPersistence<Cliente> clientes = new GenericPersistence<Cliente>("/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/clientes.json");
+        private GenericPersistence<Funcionario> funcionarios = new GenericPersistence<Funcionario>("/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/funcionarios.json");
+        private GenericPersistence<Admin> admins = new GenericPersistence<Admin>("/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/admins.json");
+
 
         public void ExibirMenu()
         {

@@ -1,0 +1,15 @@
+/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/bin/Debug/net8.0/ClinicaVeterinaria
+/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/bin/Debug/net8.0/ClinicaVeterinaria.deps.json
+/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/bin/Debug/net8.0/ClinicaVeterinaria.runtimeconfig.json
+/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/bin/Debug/net8.0/ClinicaVeterinaria.dll
+/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/bin/Debug/net8.0/ClinicaVeterinaria.pdb
+/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/obj/Debug/net8.0/ClinicaVeterinaria.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/obj/Debug/net8.0/ClinicaVeterinaria.AssemblyInfoInputs.cache
+/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/obj/Debug/net8.0/ClinicaVeterinaria.AssemblyInfo.cs
+/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/obj/Debug/net8.0/ClinicaVeterinaria.csproj.CoreCompileInputs.cache
+/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/obj/Debug/net8.0/ClinicaVeterinaria.sourcelink.json
+/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/obj/Debug/net8.0/ClinicaVeterinaria.dll
+/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/obj/Debug/net8.0/refint/ClinicaVeterinaria.dll
+/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/obj/Debug/net8.0/ClinicaVeterinaria.pdb
+/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/obj/Debug/net8.0/ClinicaVeterinaria.genruntimeconfig.cache
+/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/obj/Debug/net8.0/ref/ClinicaVeterinaria.dll
