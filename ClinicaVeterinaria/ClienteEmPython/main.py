@@ -26,11 +26,13 @@ def menu():
         persistencia = GenericPersistence('/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/clientes.json')
         persistencia.inserir(cliente)
         print("Cliente adicionado com sucesso!")
+
     elif escolha == '2':
         persistencia = GenericPersistence('/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/clientes.json')
         clientes = persistencia.listar()
         for cliente in clientes:
             print(cliente)
+
     elif escolha == '3':
         id_cliente = int(input("Digite o ID do cliente a ser atualizado: "))
         nome = input("Novo nome: ")
@@ -41,11 +43,13 @@ def menu():
         persistencia = GenericPersistence('/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/clientes.json')
         persistencia.atualizar(cliente)
         print("Cliente atualizado com sucesso!")
+
     elif escolha == '4':
         id_cliente = int(input("Digite o ID do cliente a ser excluído: "))
         persistencia = GenericPersistence('/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/clientes.json')
         persistencia.excluir(id_cliente)
         print("Cliente excluído com sucesso!")
+
     elif escolha == '5':
         nome = input("Nome: ")
         email = input("Email: ")
@@ -55,11 +59,13 @@ def menu():
         persistencia = GenericPersistence('/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/funcionarios.json')
         persistencia.inserir(funcionario)
         print("Funcionário adicionado com sucesso!")
+
     elif escolha == '6':
         persistencia = GenericPersistence('/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/funcionarios.json')
         funcionarios = persistencia.listar()
         for funcionario in funcionarios:
             print(funcionario)
+
     elif escolha == '7':
         id_funcionario = int(input("Digite o ID do funcionário a ser atualizado: "))
         nome = input("Novo nome: ")
@@ -70,14 +76,17 @@ def menu():
         persistencia = GenericPersistence('/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/funcionarios.json')
         persistencia.atualizar(funcionario)
         print("Funcionário atualizado com sucesso!")
+
     elif escolha == '8':
         id_funcionario = int(input("Digite o ID do funcionário a ser excluído: "))
         persistencia = GenericPersistence('/workspaces/ClinicaVeterinaria-CSharp-/ClinicaVeterinaria/funcionarios.json')
         persistencia.excluir(id_funcionario)
         print("Funcionário excluído com sucesso!")
+
     elif escolha == '0':
         print("Saindo...")
         exit()
+        
     else:
         print("Opção inválida!")
 
