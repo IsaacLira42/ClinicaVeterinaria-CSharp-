@@ -18,6 +18,12 @@ class GenericPersistence:
         
         with open(self.arquivo, 'r') as f:
             self.objetos = json.load(f)
+        
+        # Normalizar chave 'Id' para 'id'
+        for obj in self.objetos:
+            if 'Id' in obj:
+                obj['id'] = obj.pop('Id')  # Renomear chave 'Id' para 'id'
+
 
     def salvar(self):
         with open(self.arquivo, 'w') as f:
@@ -25,9 +31,12 @@ class GenericPersistence:
 
     def inserir(self, obj):
         self.abrir()
-        obj.id = max([o.id for o in self.objetos], default=0) + 1
+        # Alterar para acessar a chave 'id' no dicionário
+        obj.id = max([o['id'] for o in self.objetos], default=0) + 1
+        # Adiciona o objeto como dicionário
         self.objetos.append(obj.__dict__)
         self.salvar()
+
 
     def listar(self):
         self.abrir()

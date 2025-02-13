@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "Cargo": "sdsadsa",
+    "Salario": 543,
+    "Nome": "pythonFucioanario1",
+    "Email": "sdsdsa",
+    "Senha": null,
+    "Id": 0
+  },
+  {
+    "Cargo": "fds",
+    "Salario": 34324,
+    "Nome": "C#Funcioanrio1",
+    "Email": "dsadsad",
+    "Senha": "423432",
+    "Id": 1
+  }
+]

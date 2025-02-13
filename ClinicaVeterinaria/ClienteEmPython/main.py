@@ -4,6 +4,7 @@ from models import Cliente, Funcionario
 
 
 def menu():
+    print("")
     print("Escolha a operação:")
     print("1 - Adicionar Cliente")
     print("2 - Listar Clientes")
@@ -16,6 +17,7 @@ def menu():
     print("0 - Sair")
 
     escolha = input("Digite a opção: ")
+    print("")
 
     if escolha == '1':
         nome = input("Nome: ")
